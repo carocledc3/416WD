@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: "Romeosevka", monospace;
+}
+
+h1 { font-family: "Libre Baskerville", serif; }
+a { color: #77f; }
+a:visited { color: #f77; }
+img { border: 5px solid #fff; }
+.cont { width: 50%; margin-left: 25%; }
