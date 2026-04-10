@@ -1,0 +1,53 @@
+/* CARLOS ROMEO CLEMENTE DEL CASTILLO III */
+/* UNIVERSITY OF THE CORDILLERAS, BSIT, 24-4867-479 */
+/* WEB APPLICATION DEVELOPMENT  */
+/* 416WD-F1 DEBUGGING ACTIVITY */
+/* 12 MARCH 2026 */
+
+
+/* 416WD-F1-styles.css */
+body {/*Fixed: added opening bracket*/
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+header { /*Fixed: renamed selector to `header`*/
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+main section {
+    margin: 20px;
+} /* Fixed: added closing bracket */
+
+footer {
+    position: absolute;
+    bottom: 0; /*Fixed: added semicolon to complete styling statement*/
+    right: 0;
+    width: 100vw;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center; /*Fixed: added colon to complete styling statement*/
+}
